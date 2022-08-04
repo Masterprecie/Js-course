@@ -9,7 +9,7 @@
 
 // Fundamental Task 2
 
-let isIsland = 'false'
+// let isIsland = 'false'
 // let language =
 // console.log(typeof isIsland);
 // console.log(typeof population);
@@ -37,10 +37,10 @@ let isIsland = 'false'
 // let finland= 6000000
 // let aCountryAverage = 33000000
 
-let country = 'Nigeria'
-let continent = 'Africa'
-let population = 20
-let language = 'English'
+// let country = 'Nigeria'
+// let continent = 'Africa'
+// let population = 20
+// let language = 'English'
 
 // console.log(population);
 // console.log(finland);
@@ -145,4 +145,39 @@ let language = 'English'
 // TEST DATA: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
 // TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 // TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+
+//Solution
+
+//Test Data 1:
+// const teamDolphins = (96 + 108 + 89) / 3;
+// const teamKoalas = (60 + 91 + 123)/ 3;
+
+//Test Data Bonus 1:
+// const teamDolphins = (97 + 112 + 101) / 3;
+// const teamKoalas = (109 + 95 + 123)/ 3;
+
+//Test Data Bonus 1:
+
+// const teamDolphins = (97 + 112 + 101) / 3;
+// const teamKoalas = (109 + 95 + 106)/ 3;
+
+// console.log(teamDolphins,teamKoalas);
+
+// if (teamDolphins > teamKoalas) {
+//    console.log ('Dolphins wins the trophy')
+// } else if (teamKoalas > teamDolphins) {
+//    console.log('Koalas wins the trophy');
+// } else if (teamKoalas === teamDolphins) {
+//    console.log('Both wins the trophy');
+// };
+
+// Coding Challenge #4
+
+// Steven wants to build a very simple tip calculator for whenever he goes eating in a resturant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+// 1. Your task is to caluclate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+// 2. Print a string to the console containing the bill value, the tip, and the final value (bill + tip). Example: 'The bill was 275, the tip was 41.25, and the total value 316.25'
+// TEST DATA: Test for bill values 275, 40 and 430
+// HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+// HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+// GOOD LUCK 😀
 
