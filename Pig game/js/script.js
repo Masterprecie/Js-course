@@ -77,7 +77,7 @@ btnHold.addEventListener('click', function () {
       // score[1]=score[1] + currentScore; /...not a good practice
       score[activePlayer] += currentScore;
       document.querySelector(`#score--${activePlayer}`).textContent = score[activePlayer];
-      if (score[activePlayer] >= 20){
+      if (score[activePlayer] >= 100){
          playing = false
          diceEl.classList.add('hidden'); //add the dice when the game is won
          document.querySelector(`.player--${activePlayer}`).classList.add('player--winner')
