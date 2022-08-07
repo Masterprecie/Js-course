@@ -128,9 +128,23 @@ h1 {
   .right {
     width: 50%;
     padding-top: 10px;
+    text-align: center;
   }
   .left {
     width:100%;
-    
   }
+  h1 {
+    font-size: 3rem;
+}
+.btn {
+  padding: 10px 10px;
+}
+.number {
+  width: 10rem;
+  padding: 10px;
+}
+.guess {
+  width: 17rem;
+}
+
 }
